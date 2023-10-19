@@ -36,7 +36,7 @@ const Nav = () => {
                   </li>
                 ))}
             </ul>
-            <button className="text-[40px] mr-2 max-lg:pt-20" onClick={showNavbar}>
+            <button className="text-[40px] mr-2 max-lg:pt-20 lg:hidden" onClick={showNavbar}>
                     <FaTimes />
             </button>
         </nav>
